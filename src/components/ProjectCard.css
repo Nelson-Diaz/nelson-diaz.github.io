@@ -1,0 +1,30 @@
+.divContainer {
+	border: 2px solid black;
+	border-radius: 20px;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.imageDiv {
+	border-radius: 20px;
+	
+	width: 30%;
+
+	overflow: hidden;
+}
+
+.promoImg {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.textDiv {
+	width: 70%;
+	padding: 1em;
+}
+
+h1 {
+	color: blue;
+}
