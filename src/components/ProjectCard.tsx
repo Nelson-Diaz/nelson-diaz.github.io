@@ -15,8 +15,8 @@ export function ProjectCard( props: ProjectDescription ) {
 				</div>
 
 				<div className='textDiv'>
-					<h1>{props.title}</h1>
-					<p>{props.summary}</p>
+					<h2 className='projectTitle cousine-bold'>{props.title}</h2>
+					<p className='projectSummary cousine-regular'>{props.summary}</p>
 				</div>
 			</div>
 		</>
